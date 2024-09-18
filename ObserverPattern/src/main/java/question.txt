@@ -1,0 +1,16 @@
+Problem:
+You are tasked with creating a stock price monitoring system for a financial application. The system tracks the price of various stocks, and there are multiple types of clients (observers) that need to be notified whenever a stock price changes. The clients may include:
+
+Mobile App: Receives stock price updates in real-time.
+Web Dashboard: Displays the stock prices on a web-based interface.
+Email Service: Sends an email notification when stock prices change significantly.
+Each client type must be notified whenever the stock price changes, but the system should be designed in a flexible way to allow new clients to be added easily without modifying the stock price tracking logic.
+
+You need to implement this using the Observer Design Pattern, where:
+
+The Stock class acts as the subject that notifies its observers (clients) of any changes.
+The clients (Mobile App, Web Dashboard, Email Service) are the observers that subscribe to updates from the Stock class.
+Requirements:
+Implement the Stock class that maintains a list of observers and notifies them whenever the stock price changes.
+Implement concrete observer classes (MobileApp, WebDashboard, EmailService) that are notified of stock price changes.
+Ensure the system is designed in such a way that new observers can be added easily without modifying the Stock class.

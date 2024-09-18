@@ -1,0 +1,16 @@
+Problem:
+You are tasked with creating a system that generates different types of notifications. The application should be able to create notifications like:
+
+SMS Notification: Sends a message via SMS.
+Email Notification: Sends a message via email.
+Push Notification: Sends a notification to a mobile device.
+The application must be designed in a way that when a user selects a type of notification, the appropriate class is created to handle that specific notification type. However, the exact notification type isn't known at compile-time—it will be decided based on user input or a configuration file.
+
+You should implement this using the Factory Design Pattern, where the object creation is delegated to a factory class instead of directly instantiating the notification objects.
+
+Requirements:
+Implement a Notification interface that declares the method sendNotification().
+Create concrete classes (SMSNotification, EmailNotification, PushNotification) that implement the Notification interface.
+Create a NotificationFactory class that returns the correct type of notification based on user input (like "SMS", "Email", "Push").
+The client code should only interact with the factory and the Notification interface, without worrying about which concrete class is created.
+Let me know if you'd like any hints or guidance on the implementation!

@@ -1,0 +1,23 @@
+Problem:
+You are developing a smart home remote control system that can control various devices in the house. The devices include:
+
+Lights: Can be turned on or off.
+Air Conditioner: Can be turned on, off, and have the temperature adjusted.
+Garage Door: Can be opened or closed.
+Each device should be controlled by pressing buttons on a remote. The remote should allow users to:
+
+Turn on/off the lights.
+Turn on/off the air conditioner and adjust the temperature.
+Open/close the garage door.
+The system needs to be designed in a way that allows new devices to be added later without modifying the existing code for the remote control or the devices.
+
+To achieve this, use the Command Design Pattern, where:
+
+Command objects will encapsulate the requests (like turning on the lights or adjusting the AC temperature).
+Invoker will be the remote control, which triggers the commands.
+Receivers will be the devices (lights, AC, garage door) that perform the actual actions.
+Requirements:
+Implement devices like Lights, Air Conditioner, and Garage Door, each capable of responding to commands.
+Implement individual Command classes for each action (e.g., turning on/off lights, adjusting the AC temperature).
+Implement the RemoteControl (Invoker), which will execute commands based on user input.
+The design should allow for the easy addition of new devices or actions without modifying the existing command or device classes

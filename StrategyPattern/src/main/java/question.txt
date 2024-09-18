@@ -1,0 +1,19 @@
+Problem: Payment Processing System
+You are tasked with creating a payment processing system for an e-commerce platform. The platform allows users to pay using various methods, such as:
+
+Credit Card
+PayPal
+Bitcoin
+Each payment method requires different details and has its own process for validating and processing payments. The system should be flexible enough to add new payment methods in the future without changing the core logic.
+
+Requirements:
+User can choose a payment method at runtime.
+Each payment method has its own validation and processing logic.
+The system should be easily extendable to add more payment methods in the future.
+Avoid code duplication and maintain separation of concerns.
+Instructions:
+Use the Strategy Design Pattern to encapsulate different payment processing strategies.
+Implement a PaymentProcessor interface (or abstract class) that defines the structure for all payment methods.
+Create concrete implementations for Credit Card, PayPal, and Bitcoin that implement the payment strategy.
+A client class should be able to accept any payment strategy at runtime and execute the payment process.
+This problem will help you understand how the Strategy Design Pattern allows for the flexible addition of new behavior without modifying the core system. Let me know if you need help with the solution!

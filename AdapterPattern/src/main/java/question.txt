@@ -1,0 +1,14 @@
+Problem:
+You are developing a payment processing system for an e-commerce platform. The platform currently uses a payment gateway (OldPaymentGateway) that processes payments through its processPayment() method. However, the company has decided to integrate with a new payment gateway (NewPaymentGateway), which has a different interface with methods like makeTransaction().
+
+The platform should be able to work with both the old and new payment gateways without modifying the existing code base. The solution needs to ensure that the existing system can interact with the new payment gateway using the same interface as the old one.
+
+You need to implement this using the Adapter Design Pattern, where:
+
+The OldPaymentGateway and NewPaymentGateway classes have different interfaces for processing payments.
+You should create an adapter class to make the NewPaymentGateway compatible with the interface of the OldPaymentGateway so that the existing system can use it without changes.
+Requirements:
+Implement the OldPaymentGateway class with a processPayment() method.
+Implement the NewPaymentGateway class with a makeTransaction() method.
+Create an Adapter class that allows the NewPaymentGateway to work with the old payment system.
+The client code should be able to use both payment gateways without changing its interface or logic.

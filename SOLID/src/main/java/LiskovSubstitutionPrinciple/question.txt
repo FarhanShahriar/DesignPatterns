@@ -1,0 +1,9 @@
+3. Liskov Substitution Principle (LSP)
+Problem:
+You are developing a hierarchy of classes for Birds. You have a Bird class with methods like fly(), and you inherit from this class to create specific bird types such as Sparrow, Eagle, etc.
+
+Now you need to add a new class, Penguin, which is also a bird but cannot fly. The fly() method in the Penguin class either throws an exception or doesn’t make sense.
+
+This violates the Liskov Substitution Principle, which states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+
+Task: Refactor the bird hierarchy so that it adheres to the Liskov Substitution Principle.

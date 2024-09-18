@@ -1,0 +1,7 @@
+5. Dependency Inversion Principle (DIP)
+Problem:
+You are building a notification system where the Notification class directly depends on concrete classes like EmailService and SMSService to send notifications.
+
+Now, if you need to add a new type of notification, like PushNotificationService, you have to modify the Notification class, violating the Dependency Inversion Principle. Higher-level modules should depend on abstractions, not on concrete implementations.
+
+Task: Refactor the system to depend on abstractions (interfaces) instead of concrete classes so that adding new notification types doesn’t require changing the Notification class.

@@ -1,0 +1,21 @@
+Problem:
+You are tasked with developing a cross-platform user interface library. The application will support two platforms:
+
+Windows
+Mac
+For both platforms, the UI library should be able to create:
+
+Buttons (Windows.WindowsButton, Mac.MacButton)
+Checkboxes (WindowsCheckbox, MacCheckbox)
+The system should be designed so that the client can create buttons and checkboxes for each platform without needing to know the concrete class being instantiated. Depending on the platform, the correct family of UI components should be created. However, the client does not know beforehand which platform the application will run on, so the appropriate button and checkbox objects should be created at runtime based on the platform.
+
+You need to implement this using the Abstract Factory Pattern, where:
+
+The client interacts with abstract interfaces for UI components (Interfaces.Button, Checkbox).
+A factory is responsible for creating the correct family of objects for a given platform.
+Requirements:
+Define abstract interfaces for Interfaces.Button and Checkbox.
+Create concrete classes for Windows and Mac buttons and checkboxes.
+Define an abstract factory interface (UIFactory) for creating families of related objects (Interfaces.Button, Checkbox).
+Implement two concrete factories (Windows.WindowsPlatform and Mac.MacPlatform) that will create buttons and checkboxes for each platform.
+The client code should only interact with the factory and the abstract interfaces.

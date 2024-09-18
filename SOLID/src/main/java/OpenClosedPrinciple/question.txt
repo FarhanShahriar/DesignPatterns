@@ -1,0 +1,7 @@
+2. Open/Closed Principle (OCP)
+Problem:
+You have a class that calculates the area of different shapes (e.g., Rectangle and Circle). The class has a method calculateArea() that uses if-else or switch-case statements to check the type of the shape and then calculate the area accordingly.
+
+As new shapes (e.g., Triangle, Square) are added, the method grows more complex, and you need to modify the code every time you introduce a new shape, violating the Open/Closed Principle (classes should be open for extension but closed for modification).
+
+Task: Refactor the design so that new shapes can be added without modifying the existing calculateArea() method.

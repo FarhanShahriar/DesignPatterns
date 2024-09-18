@@ -1,0 +1,20 @@
+Problem:
+You are building a coffee shop ordering system. The shop offers different types of coffee, such as:
+
+Espresso
+Latte
+Cappuccino
+In addition to the base coffee, customers can customize their orders by adding extras like:
+
+Milk
+Sugar
+Whipped Cream
+Caramel Syrup
+Each extra affects the total cost of the coffee. You need to design a flexible system where customers can order coffee with any combination of these extras without having to create a separate class for every possible combination (e.g., Espresso with Milk, Cappuccino with Sugar, Latte with Milk and Whipped Cream, etc.).
+
+To solve this problem, you need to allow coffee objects to be wrapped with decorators representing the extras. Each decorator should modify the coffee's cost based on the extra it represents.
+
+Requirements:
+Implement the base coffee types (Espresso, Latte, etc.) with their default prices.
+Implement decorators for extras like Milk, Sugar, Whipped Cream, and Caramel Syrup, which can be added dynamically to any coffee order.
+Ensure that the system allows the dynamic addition of extras without requiring complex subclassing for every possible combination of coffee and extras.

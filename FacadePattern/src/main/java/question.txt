@@ -1,0 +1,16 @@
+Problem:
+You are developing a home automation system that controls various subsystems in a smart home. These subsystems include:
+
+Lights: Can be turned on or off.
+Air Conditioner (AC): Can be turned on, off, and have the temperature adjusted.
+Home Theater System: Can be turned on, off, and has volume control.
+To simplify usage, you want to provide a single interface that allows users to control these subsystems without interacting with each individual component directly. For example, the user can press a button on their phone to "Watch a Movie", and the system will turn off the lights, turn on the AC, and start the home theater system. Similarly, they can press a button to "Go to Bed", which will turn off all systems.
+
+You need to implement this using the Facade Design Pattern, where:
+
+The Facade class will provide a simplified interface to control multiple home subsystems.
+Each subsystem (Lights, AC, Home Theater) will have its own detailed implementation, but the user interacts only with the facade.
+Requirements:
+Implement subsystems for Lights, Air Conditioner, and Home Theater with their respective functionalities.
+Implement a HomeAutomationFacade class to provide simple methods like watchMovie() and goToBed() that interact with the subsystems.
+The client should be able to use the facade without dealing with the complexity of each subsystem.

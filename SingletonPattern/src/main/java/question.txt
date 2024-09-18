@@ -1,0 +1,17 @@
+Problem:
+You are tasked with developing a logging system for an application. The logging system will be responsible for writing log messages (such as errors, warnings, and info messages) to a file.
+
+The application should ensure that only one instance of the logger is created throughout the entire application, regardless of how many times the logger is requested. This is necessary because multiple logger instances could result in concurrent writes to the log file, leading to inconsistency or file corruption.
+
+To solve this, you need to ensure that:
+
+Only a single instance of the logger class is created.
+The logger is globally accessible throughout the application, so any part of the system can log messages.
+Multiple attempts to create a new logger object should return the same instance.
+You need to implement this using the Singleton Design Pattern.
+
+Requirements:
+Implement a MyLogger class that has a method to write logs to a file.
+Ensure that only one instance of the MyLogger class can exist.
+The MyLogger instance should be globally accessible.
+The client code should only interact with the singleton MyLogger instance for logging messages.

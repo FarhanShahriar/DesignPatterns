@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e4222d8-f772-48a8-8268-e424f9a2e493" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91084cc7d1443c78f24c839aef5e64161599ac84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/91084cc7d1443c78f24c839aef5e64161599ac84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Interfaces/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Interfaces/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Interfaces/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Interfaces/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Mac/MacButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Mac/MacCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Mac/MacPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Mac/MacTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Windows/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Windows/WindowsCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Windows/WindowsPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/Windows/WindowsTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/NewPaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/OldPaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/ACTemperatureSetCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/ACTurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/ACTurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/GarageDoorCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/GarageDoorOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Actions/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Jobs/AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Jobs/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Jobs/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/CoffeeDecorators/CaramelSyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/CoffeeDecorators/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/CoffeeDecorators/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/CoffeeDecorators/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/CoffeeDecorators/WhippedCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/Coffees/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/Coffees/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/Coffees/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/Coffees/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/HomeAutomationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/HomeTheater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/Lights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadePattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/MobileNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/NotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/MobileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/WebDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Wrongway/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Wrongway/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Wrongway/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Wrongway/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/Wrongway/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/DepedecyInversionPrinciple/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/BasicPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/FaxMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/MultiPurposePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/WrongWay/BasicPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/WrongWay/MultiPurposePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/WrongWay/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/WrongWay/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/InterfaceSegregationPrinciple/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/IFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/PenguinCanNotFlyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/WrongWay/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/LiskovSubstitutionPrinciple/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/WrongWay/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/WrongWay/WrongImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/OpenClosedPrinciple/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/UserValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/WelcomeEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/WrongWay/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/WrongWay/WrongImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/SingleResponsibilityPrinciple/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/TestClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/TestClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/TestClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/TestClassD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/PayWithBitcoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/PayWithCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/PayWithPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyPattern/src/main/java/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2lgS1UOmN7NHSd5m1ylnEVuDQWA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/ALL_PROJECT_WORK/DesignPatterns/SOLID/src/main/java/DepedecyInversionPrinciple",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ALL_PROJECT_WORK\DesignPatterns\SOLID\src\main\java\DepedecyInversionPrinciple" />
+      <recent name="D:\ALL_PROJECT_WORK\DesignPatterns\SOLID\src\main\java\InterfaceSegregationPrinciple" />
+      <recent name="D:\ALL_PROJECT_WORK\DesignPatterns\SOLID\src\main\java\LiskovSubstitutionPrinciple" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DepedecyInversionPrinciple.Wrongway" />
+      <recent name="LiskovSubstitutionPrinciple.WrongWay" />
+      <recent name="Actions" />
+      <recent name="Jobs" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DepedecyInversionPrinciple.Runner">
+    <configuration name="DepedecyInversionPrinciple.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DepedecyInversionPrinciple.Runner" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DepedecyInversionPrinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepedecyInversionPrinciple.Wrongway.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DepedecyInversionPrinciple.Wrongway.Runner" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DepedecyInversionPrinciple.Wrongway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceSegregationPrinciple.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceSegregationPrinciple.Runner" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterfaceSegregationPrinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiskovSubstitutionPrinciple.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LiskovSubstitutionPrinciple.Runner" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LiskovSubstitutionPrinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceSegregationPrinciple.WrongWay.Runner" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterfaceSegregationPrinciple.WrongWay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DepedecyInversionPrinciple.Runner" />
+        <item itemvalue="Application.DepedecyInversionPrinciple.Wrongway.Runner" />
+        <item itemvalue="Application.InterfaceSegregationPrinciple.Runner" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.LiskovSubstitutionPrinciple.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e4222d8-f772-48a8-8268-e424f9a2e493" name="Changes" comment="" />
+      <created>1725600019152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725600019152</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

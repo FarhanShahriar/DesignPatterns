@@ -1,0 +1,13 @@
+4. Interface Segregation Principle (ISP)
+Problem:
+You are designing a system for different types of printers. There’s a Printer interface that includes the following methods:
+
+print()
+scan()
+fax()
+However, not all printers support all these operations. For instance, a basic printer only needs the print() method, while a multi-function printer requires all methods.
+
+Currently, every printer class has to implement all three methods, even if they do not need to (e.g., a basic printer needs to provide an empty implementation for scan() and fax()), violating the Interface Segregation Principle.
+
+Task: Refactor the Printer interface so that classes implement only the methods they need, adhering to the ISP.
+
